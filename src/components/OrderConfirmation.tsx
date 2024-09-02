@@ -14,7 +14,7 @@ const OrderConfirmation: React.FC<CheckoutProps> = ({
   reset,
 }) => {
   return (
-    <div className="fixed left-0 top-0 flex h-[100vh] w-full items-end justify-center bg-rose900/40 sm:items-center md:absolute">
+    <div className="fixed left-0 top-0 flex h-[100vh] w-full items-end justify-center bg-rose900/40 sm:items-center md:fixed">
       <div className="w-full flex-col items-center justify-evenly rounded-xl bg-white px-6 py-10 sm:max-h-full md:max-w-[680px]">
         <Image
           className="mb-4 h-12 w-auto"
