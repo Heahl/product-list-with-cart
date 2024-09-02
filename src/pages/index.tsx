@@ -204,7 +204,13 @@ export default function Home() {
           />
         </div>
         {checkoutOpen && (
-          <OrderConfirmation cartItems={cart} total={total} reset={reset} />
+          <OrderConfirmation
+            cartItems={cart}
+            total={total}
+            reset={reset}
+            removeFromCart={removeFromCart}
+            handleCheckout={handleCheckout}
+          />
         )}
       </main>
     </>

@@ -4,7 +4,6 @@ import { type CartProps } from "@/components/Cart";
 import { type DataProps } from "@/pages/index";
 
 interface CheckoutProps extends CartProps {
-  item: DataProps;
   cartItems: DataProps[];
   reset: () => void;
 }
